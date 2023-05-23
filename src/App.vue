@@ -6,7 +6,7 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <RouterLink class="navbar-brand green" to="/">Tugas UTS</RouterLink>
+        <RouterLink class="navbar-brand green" to="/">UTS</RouterLink>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,19 +30,8 @@
                 >Lives</RouterLink
               >
             </li>
-            <li class="nav-item">
-              <RouterLink
-                class="nav-link green"
-                aria-current="page"
-                to="/skills"
-                >Skills</RouterLink
-              >
-            </li>
-            <li class="nav-item">
-              <RouterLink class="nav-link green" aria-current="page" to="/about"
-                >About</RouterLink
-              >
-            </li>
+           
+           
           </ul>
           <form class="d-flex" role="search">
             <input

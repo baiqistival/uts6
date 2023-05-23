@@ -5,66 +5,53 @@
         logo_bendera: [
           {
             rating: "rating1.png",
-            bendera: "bendera.png",
-            negara: "indonesia",
+            bendera: "kamboja.png",
+            negara: "kamboja",
           },
         ],
         data_live_liga_one: [
           {
-            club_logo: "bola1.png",
-            club_name: "FOTBALL FC",
+            club_logo: "bola.jpg",
+            club_name: "AC MILAN",
             scores: 3,
             session_liga: 1,
           },
           {
-            club_logo: "bola2.png",
-            club_name: "LIVERPOOL",
+            club_logo: "arema.png",
+            club_name: "AREMA",
             scores: 1,
             session_liga: 1,
           },
         ],
         data_live_liga_two: [
           {
-            club_logo: "bola3.jpeg",
-            club_name: "HANOVER",
-            scores: 4,
-            session_liga: 1,
+            club_logo: "real.png",
+            club_name: "REAL MADRID",
+            scores: 3,
+            session_liga: 2,
           },
           {
-            club_logo: "bola4.jpeg",
-            club_name: "BROCELLE",
-            scores: 2,
+            club_logo: "brazil.png",
+            club_name: "BRAZIL",
+            scores: 5,
             session_liga: 1,
           },
         ],
         data_live_liga_three: [
           {
-            club_logo: "bola5.png",
-            club_name: "CLUB BRUGEN KV",
-            scores: 1,
-            session_liga: 1,
+            club_logo: "celsea.png",
+            club_name: "CELSEA",
+            scores: 2,
+            session_liga: 2,
           },
           {
-            club_logo: "bola6.jpeg",
-            club_name: "CHAMPION TEAM",
+            club_logo: "aresenal.png",
+            club_name: "ARSENAL",
             scores: 1,
             session_liga: 1,
           },
         ],
-        data_live_liga_four: [
-          {
-            club_logo: "bola7.png",
-            club_name: "SOCCER CLUB",
-            scores: 0,
-            session_liga: 1,
-          },
-          {
-            club_logo: "bola8.png",
-            club_name: "REAL MADRID",
-            scores: 3,
-            session_liga: 1,
-          },
-        ],
+        
       };
     },
   };
@@ -291,14 +278,14 @@
                         '/src/assets/logo_bola/' + data_live_liga_four.club_logo
                       "
                     />
-                  </div>
+                  </div> 
                   <div class="col">
                     {{ data_live_liga_four.club_name }}
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-1">
+            </div> 
+             <div class="col-1">
               <div v-for="data_live_liga_four in data_live_liga_four">
                 <div class="col">{{ data_live_liga_four.scores }}</div>
               </div>
@@ -309,10 +296,10 @@
                   {{ "(" + data_live_liga_four.session_liga + ")" }}
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
-        </ul>
-        <!-- end dropdown kedua -->
+        </ul> 
+                <!-- end dropdown kedua -->
       </div>
     </div>
   </div>

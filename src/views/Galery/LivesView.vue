@@ -58,11 +58,12 @@
 </script>
 <template>
   <div class="container">
-    <h2 class="text-center">In live</h2>
+    <h2 class="text">Live</h2>
 
     <!-- dropdown pertama -->
     <div
-      class="row btn-lg text-bg-warning p-2"
+    class="bg collor p-2"
+      
       data-bs-toggle="dropdown"
       aria-expanded="false"
     >
@@ -127,7 +128,7 @@
     <!-- dropdown kedua -->
     <div class="mt-1">
       <div
-        class="row btn-lg text-bg-warning p-2"
+        class="row btn-lg text-blue p-2"
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
@@ -191,10 +192,10 @@
       </ul>
       <!-- end dropdown kedua -->
 
-      <!-- dropdown kedua -->
+      <!-- live 3 -->
       <div class="mt-1">
         <div
-          class="row btn-lg text-bg-warning p-2"
+          class="row btn-lg text- p-2"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
@@ -299,7 +300,7 @@
             </div> 
           </div>
         </ul> 
-                <!-- end dropdown kedua -->
+                <!-- end live 3 -->
       </div>
     </div>
   </div>
